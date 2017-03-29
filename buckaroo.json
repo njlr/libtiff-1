@@ -1,0 +1,7 @@
+{
+  "name": "libtiff",
+  "dependencies": {
+    "ijg/libjpeg": "9.1.0",
+    "madler/zlib": "1.2.11"
+  }
+}

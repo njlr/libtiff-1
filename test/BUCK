@@ -1,0 +1,21 @@
+cxx_binary(
+  name = 'ascii_tag',
+  srcs = [
+    'check_tag.c',
+    'ascii_tag.c',
+  ],
+  deps = [
+    '//:libtiff',
+  ],
+)
+
+cxx_binary(
+  name = 'long_tag',
+  srcs = [
+    'check_tag.c',
+    'long_tag.c',
+  ],
+  deps = [
+    '//:libtiff',
+  ],
+)
